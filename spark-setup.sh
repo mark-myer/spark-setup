@@ -1,6 +1,4 @@
-wget https://github.com/mark-myer/spark-setup/linux_installer.zip --no-check-certificate
-sudo apt install unzip
-unzip linux_installer.zip
+wget https://raw.githubusercontent.com/mark-myer/spark-setup/main/Linux_Installer.sh
 sudo ./Linux_Installer.sh
 sudo add-apt-repository ppa:saiarcot895/chromium-beta
 sudo apt-get update
