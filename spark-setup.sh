@@ -1,4 +1,4 @@
-https://github.com/mark-myer/spark-setup/linux_installer.zip --no-check-certificate
+wget https://github.com/mark-myer/spark-setup/linux_installer.zip --no-check-certificate
 sudo apt install unzip
 unzip linux_installer.zip
 sudo ./Linux_Installer.sh
